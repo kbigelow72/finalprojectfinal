@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    
+    <title>College Enrollment and the Pandemic</title>
+<meta
+      name="College Enrollment Declining"
+      content="Since pandemic began colleges across USA have seen rapid decline in enrolled students."
+    />
+    <meta name="twitter:title" content="College Enrollment Declines Amid Pandemic" />
+    <meta
+      name="twitter:description"
+      content="Higher education enrollment fell to new lows in the spring of 2021, showing the persistent impacts of the coronavirus pandemic."
+    />
+    <meta name="twitter:image:src" content="https://cdn.glitch.me/e1d1283c-6517-48e4-999d-02de38e51c7f%2Fcollege-bound-clip-art-2-350x323.jpg?v=1637172405134" />
+    <meta property="og:image" content="article" />
+        <meta name="twitter:card" content="https://cdn.glitch.me/e1d1283c-6517-48e4-999d-02de38e51c7f%2Fcollege-bound-clip-art-2-350x323.jpg?v=1637172405134" />
+    <meta name="twitter:site" content="kstatecollegian" />
+ 
+    <link
+      rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar-scheduler/4.0.2/resource-timeline/main.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!-- import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import your final project's javascript files -->
+    <!-- please just use this line for this project only as it contains my own Font Awesome key. You can replace with your own Awesome code though. -->
+    <script
+      src="https://kit.fontawesome.com/740e6c08cb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- DataTable-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.11.3/datatables.min.css"
+    />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.11.3/datatables.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Hero image (the main image of the page; this can be a photoshop arrangement, a video, or a vector graphics; just pick one option) -->
+    <div id="heroimg">
+      <!-- upload an image/graphic to the assets and copy the link and paste inside src="", add a short name to alt="" -->
+      <img
+        src="https://cdn.glitch.me/e1d1283c-6517-48e4-999d-02de38e51c7f%2Fcollege-bound-clip-art-2-350x323.jpg?v=1637172405134"
+        alt="placeholder"
+        width="0px"
+        height="600px"
+      />
+
+      <!-- Upload a video to the assets and copy the link and write the following code
+        <video width="100%" height="100%" controls> 
+           <source src="" type="video/mp4">
+        </video>
+        Make sure you add the link between src=""
+        -->
+
+      <!-- Instead of uploading a video, you can copy the emmbedded code of a YouTube video and paste here-->
+    </div>
+
+    <!-- the headings of your story -->
+    <div id="intro">
+      <h1>College Enrollment Declines Amid Pandemic</h1>
+      <p class="byline">Over 800,000 less college students enrolled in 2021 than in 2019</p>
+      <p class="date">
+        Published 11:45 AM CDT Nov.17, 2021
+        <b>| Updated 1:30 PM CDT Nov. 19, 2021</b>
+      </p>
+    </div>
+
+    <!-- social media menu (replace the placeholders with your real facebook, twitter, instagram links-->
+ <div id="social">
+      <ul>
+        <li>
+          <a href="https://twitter.com/intent/tweet?source=https://final-copy-2.glitch.me" target="_blank" id="twitter" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://facebook.com/sharer/sharer.php?u=https://final-copy-2.glitch.me/&quote=" target="_blank" title="Share on Facebook" id="facebook" onclick="window.open('https://facebook.com/sharer/sharer.php?u='+ encodeURIComponent(document.URL) + '&quote=' + encodeURIComponent(document.URL)); return false;"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="mailto:kbigelow2000@gmail.com" target="_blank" id="email"><i class="fas fa-paper-plane"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- start writing your story below-->
+    <div class="main-text">
+      <p>
+        Higher education enrollment fell to new lows in the spring of 2021, showing the persistent impacts of the coronavirus pandemic.
+      </p>
+      <p>
+    Overall, postsecondary enrollment dropped by 3.5% or 603,000 students from the spring of 2020 to the spring of 2021, according to research from the National Student Clearinghouse. This drop was seven times greater than the rate of decline reported just one year earlier and over two times larger than any drop since the spring of 2015. The 3.5% decline is also the biggest decline in enrollment reported by the National Student Clearinghouse. 
+
+      </p>
+    </div>
+
+    <!-- your first section -->
+    <h3>17,000 Less Students Per State</h3>
+ 
+    <figure class="highcharts-figure">
+      <div id="graphic-1"></div>
+    </figure>
+    <!-- if you are using Highchart JS, add a pair of script tags below and write the code in between; make sure you replace "container" with "graphic-1"-->
+
+    <div class="main-text">
+      <p>
+        The pandemic swept across America and turned colleges to virtual only classrooms. College students were tasked with learning exclusively online and receiving little to no hands-on experience.
+      </p>
+      <p>
+“It was hard getting up every day knowing that you didn’t have anywhere to go,” said Jenna Williams, an undergraduate student at South Dakota State University. “I kind of lost all motivation.” 
+        <p>
+          This seemed to be the case for most college students. The drive for college was lost, and for some, that meant stepping away from college. Enrollment numbers continue to point towards that too. In places such as California, enrollment dropped from 2,246,684 in 2019 to 2,038,175 in 2020-- a loss of over 208,000 students.
+          <p>
+            “I feel I think in the short term it will be painful," Karen Goos Vice Provost for Enrollment Management at Kansas State said. "We didn't lose students overnight and we're not going to gain students overnight."
+      </p>
+          
+          <p>
+            The bar graph above shows the five states with the largest decline in enrollment, as well as Kansas. From the states who submitted enrollment data, on average, states lost 17,136 students during that stretch, with all but four states declining in enrollment. Kansas came in just below average, losing 14,353 students from 2019 to 2021. 
+   </p>
+      
+      <p>
+What's more significant is that most of this decline came between the 2020 and 2021 school years, just after the pandemic commenced. From 2019 to 2020 enrollment numbers only decreased by roughly 199,000 students. Of course, that number is still high, but in comparison to the decline from 2020 to 2021, it is miniscule. That year saw enrollment numbers drop over 640,000 students, over three times as many as the previous year. It is easy to see the connection between the pandemic and these declines, as the pandemic hit the U.S. in March of 2020.
+        <p>
+          Not only has Covid-19 affected enrollment rates for K-State and across the nation, Goos says that statistics showing that students are leaving universities faster and have caused a shift in enrollment.
+          <p>
+            “We've increased our graduation rate of four years by ten percent in the US," Goos said. "So, ten percent of students over the last five years more are graduating in four years and getting out the door… there's fewer students coming in so that means that we're shortening enrollment on both ends of the spectrum which provides an overall enrollment decline.”
+      </p>
+
+      </p>
+    </div>
+
+    <!-- your second section -->
+    <h3>Historic Low Enrollment Rates</h3>
+
+<div id="graphic-2"></div>
+
+    <div class="main-text">
+      <p>
+       Just one year after the pandemic began, the National Student Clearinghouse data shows that for the spring of 2021, a total of 16,855,301 students were enrolled in college in the United States. That number was not only a 3.5% decline from the previous spring, but is also the lowest total enrollment number listed by the National Student Clearinghouse, dating back to 2011, for the spring or fall semesters.
+        <p>
+          While the nation has been impacted by low enrollnent since 2011, this isn't anything new to K-State specifically either as the university has seen enrollment rates dropping consistantly since 2014. 
+      </p>
+      “We actually have had a decline our high watermark at the university was 2014,” Goos said. “That is when we saw our highest increase and we've seen a decline of enrollment since 2014 so we just continued it's been a continuous decline since that time.”
+      </p>
+      <p>
+
+Every sector took a hit, including public and private colleges and universities, however, impacts at two-year colleges were the greatest. The table and graph below show the two-year and four-year enrollment numbers for 2021. Two-year colleges lost nearly three times as many students from 2019 to 2021 than four-year colleges, and this decline came largely post-covid. From 2020 to 2021 enrollment at two-year colleges in the U.S. dropped by over 506,000 students, where the previous year was a decline of just over 120,000 students. Seeing this large discrepancy is surprising, but seeing that two-year colleges were impacted more greatly should not be a surprise.
+<p>
+  Two-year colleges often enroll more students of minority and students that are low-income. The financial burden that developed during the pandemic has made it even harder for low-income families, and college may have been taken off the table. 
+
+      </p>
+    </div>
+
+    <!-- your third section -->
+
+    <h3>Impacts Beyond College</h3>
+      
+      			<table id="dt-table">
+              
+				<thead>
+					<tr>
+						<th>State</th>
+						<th>Four-Year Colleges</th>
+						<th>Two-Year Colleges</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Alabama</td>
+						<td>177534</td>
+						<td>60215</td>
+					</tr>
+					<tr>
+						<td>Alaska</td>
+						<td>19845</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Arizona</td>
+						<td>297027</td>
+						<td>131387</td>
+					</tr>
+					<tr>
+						<td>Arkansas</td>
+						<td>95768</td>
+						<td>31535</td>
+					</tr>
+					<tr>
+						<td>California</td>
+						<td>952323</td>
+						<td>1085852</td>
+					</tr>
+					<tr>
+						<td>Colorado</td>
+						<td>196307</td>
+						<td>58526</td>
+					</tr>
+					<tr>
+						<td>Connecticut</td>
+						<td>119895</td>
+						<td>33571</td>
+					</tr>
+					<tr>
+						<td>Florida</td>
+						<td>815611</td>
+						<td>35403</td>
+					</tr>
+					<tr>
+						<td>Georgia</td>
+						<td>356214</td>
+						<td>108387</td>
+					</tr>
+					<tr>
+						<td>Hawaii</td>
+						<td>30795</td>
+						<td>15756</td>
+					</tr>
+					<tr>
+						<td>Idaho</td>
+						<td>79280</td>
+						<td>18425</td>
+          </tr>
+					<tr>
+						<td>Illinois</td>
+						<td>335784</td>
+						<td>205179</td>
+					</tr>
+					<tr>
+						<td>Indiana</td>
+						<td>259048</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Iowa</td>
+						<td>108479</td>
+						<td>59505</td>
+					</tr>
+					<tr>
+						<td>Kansas</td>
+						<td>98708</td>
+						<td>56255</td>
+					</tr>
+					<tr>
+						<td>Kentucky</td>
+						<td>161290</td>
+						<td>58821</td>
+					</tr>
+					<tr>
+						<td>Louisiana</td>
+						<td>154512</td>
+						<td>43886</td>
+					</tr>
+					<tr>
+						<td>Maine</td>
+						<td>48151</td>
+						<td>11352</td>
+					</tr>
+					<tr>
+						<td>Maryland</td>
+						<td>223755</td>
+						<td>93268</td>
+					</tr>
+					<tr>
+						<td>Massachusetts</td>
+						<td>339862</td>
+						<td>56418</td>
+					</tr>
+					<tr>
+						<td>Michigan</td>
+						<td>303126</td>
+						<td>121333</td>
+					</tr>
+					<tr>
+						<td>Minnesota</td>
+						<td>159107</td>
+						<td>85186</td>
+					</tr>
+					<tr>
+						<td>Mississippi</td>
+						<td>85877</td>
+						<td>57375</td>
+					</tr>
+					<tr>
+						<td>Missouri</td>
+						<td>223266</td>
+						<td>61902</td>
+					</tr>
+					<tr>
+						<td>Montana</td>
+						<td>33944</td>
+						<td>6333</td>
+					</tr>
+					<tr>
+						<td>Nebraska</td>
+						<td>90099</td>
+						<td>33707</td>
+					</tr>
+					<tr>
+						<td>Nevada</td>
+						<td>87707</td>
+						<td>9546</td>
+					</tr>
+					<tr>
+						<td>New Hampshire</td>
+						<td>176536</td>
+						<td>9271</td>
+					</tr>
+					<tr>
+						<td>New Jersey</td>
+						<td>234055</td>
+						<td>103100</td>
+					</tr>
+					<tr>
+						<td>New Mexico</td>
+						<td>50303</td>
+						<td>38535</td>
+					</tr>
+					<tr>
+						<td>New York</td>
+						<td>718942</td>
+						<td>180141</td>
+					</tr>
+					<tr>
+						<td>North Carolina</td>
+						<td>297284</td>
+						<td>181818</td>
+					</tr>
+					<tr>
+						<td>North Dakota</td>
+						<td>39205</td>
+						<td>5885</td>
+					</tr>
+					<tr>
+						<td>Ohio</td>
+						<td>393807</td>
+						<td>131890</td>
+					</tr>
+					<tr>
+						<td>Oklahoma</td>
+						<td>116018</td>
+						<td>41665</td>
+					</tr>
+					<tr>
+						<td>Oregon</td>
+						<td>122496</td>
+						<td>73675</td>
+					</tr>
+					<tr>
+						<td>Pennsylvania</td>
+						<td>432672</td>
+						<td>81132</td>
+					</tr>
+					<tr>
+						<td>Rhode Island</td>
+						<td>27949</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>South Carolina</td>
+						<td>132875</td>
+						<td>66555</td>
+					</tr>
+					<tr>
+						<td>South Dakota</td>
+						<td>35218</td>
+						<td>6801</td>
+					</tr>
+					<tr>
+						<td>Tennessee</td>
+						<td>194457</td>
+						<td>64362</td>
+					</tr>
+					<tr>
+						<td>Texas</td>
+						<td>785300</td>
+						<td>547545</td>
+					</tr>
+					<tr>
+						<td>Utah</td>
+						<td>325701</td>
+						<td>32192</td>
+					</tr>
+					<tr>
+						<td>Vermont</td>
+						<td>30741</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Virginia</td>
+						<td>314439</td>
+						<td>113547</td>
+					</tr>
+					<tr>
+						<td>Washington</td>
+						<td>233714</td>
+						<td>66256</td>
+					</tr>
+					<tr>
+						<td>West Virginia</td>
+						<td>59764</td>
+						<td>10601</td>
+					</tr>
+					<tr>
+						<td>Wisconsin</td>
+						<td>187137</td>
+						<td>76127</td>
+					</tr>
+					<tr>
+						<td>Wyoming</td>
+						<td></td>
+						<td>15341</td>
+					</tr>
+				</tbody>
+			</table>
+    
+    <div id="chart"></div>
+
+
+    
+    <div class="main-text">
+      <p>
+        Two-year colleges have taken the biggest hit due to the pandemic, but every sector has been affected.
+      </p>
+      <p>
+       College enrollment has declined at every level. Whether it is due to the financial issues that developed during the pandemic, the increase in tuition costs, or the fear of getting sick, the enrollment numbers have taken a plunge. In just a few short years, colleges across the United States have lost nearly 840,000 students. This is more than just a college issue.
+        <p>
+          According to the National Student Clearinghouse, overall postsecondary enrollment has been trending downward since the fall of 2012, but the pandemic has supercharged the declines. When fewer students go to college, fewer students graduate, and fewer students move on to higher-paying jobs, meaning this could have immense ramifications on the U.S. economy.
+      </p>
+      </p>
+    </div>
+
+    <!-- your data methodology section -->
+
+    <div id="data-method">
+      <p></p>
+      <p>
+    <br>
+<br>
+        METHODOLOGY <br />
+       The original data came from the National Student Clearinghouse, which reports current term enrollment estimates each December and May. It provides national enrollment, enrollment intensity, age group, gender, major field, and state-level enrollment estimates. The data covers 97% of the total enrollments and is submitted directly by the colleges. Postsecondary institutes actively submit enrollment data to the Clearinghouse several times per term. 
+        <p>
+         Click <a href="https://drive.google.com/drive/folders/1U8j8dGFW46eZ_MGQP7MzhxMcHGvWaVDl?usp=sharing">here</a> for the full methodology, original data, and clean data.
+      </p>
+      </p>
+    </div>
+
+    <!-- add more credits to your teammates  -->
+    <section class="credits">
+      <div class="credtx">
+        Editor |
+        <a href="https://twitter.com/kbigelow72" target="_blank">Kelsey Bigelow</a>
+      </div>
+      <div class="credtx">
+        Data Visualization |
+        <a href="https://twitter.com/joshuadread" target="_blank">Joshua Read</a>
+      </div>
+      <div class="credtx">
+        Story Development |
+        <a href="https://twitter.com/Colin_Settle" target="_blank">Colin Settle</a>
+      </div>
+    </section>
+
+    <!-- add things to your footer-->
+    <footer>
+      <p>© Copyright 2021, Manhattan, KS</p>
+    </footer>
+
+    <!-- google analytics script -->
+    <script>
+      (function(b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] ||
+          (b[l] = function() {
+            (b[l].q = b[l].q || []).push(arguments);
+          });
+        b[l].l = +new Date();
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = "https://www.google-analytics.com/analytics.js";
+        r.parentNode.insertBefore(e, r);
+      })(window, document, "script", "ga");
+      ga("create", "UA-xxxxxxxx-x", "auto"); // Fill in with actual UA-
+      ga("send", "pageview");
+    </script>
+
+    <script
+      data-ad-client=""
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    >
+      // fill in with data ad client
+    </script>
+       <!-- Import the webpage's javascript file -->
+      <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+      <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+      <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+      <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+      <script src="https://code.highcharts.com/modules/exporting.js"></script>
+      <script src="https://code.highcharts.com/modules/export-data.js"></script>
+      <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <!-- Custom Script -->
+    <script src="/script.js"></script>
+  </body>
+</html>
